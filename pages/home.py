@@ -1,5 +1,6 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 def display():
-    st.title("Home")
-    st.write("Welcome to the Homebuyer Readiness Evaluation app.")
+    iframe_src = "https://www.fanniemae.com"
+    components.iframe(iframe_src)

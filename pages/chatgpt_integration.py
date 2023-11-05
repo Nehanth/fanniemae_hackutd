@@ -1,12 +1,24 @@
+# In chatgpt_integration.py
 import openai
+openai.api_key = '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'
 
-# Set your OpenAI API key here
-openai.api_key = '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'
 
-def get_chatgpt_response(prompt):
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=150
+def get_chatgpt_response(question, user_financial_data):
+    # Format the user data and question as a conversation with a series of messages
+    messages = [
+        {"role": "system", "content": "You are a loan officer."},
+        {"role": "user", "content": f"The user has the following financial data:\n{user_financial_data}"},
+        {"role": "user", "content": question}
+    ]
+    
+    # Use the 'gpt-3.5-turbo' engine and the 'v1/chat/completions' endpoint
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=messages,
+        max_tokens=150,
+        temperature=0.1  # Set the temperature to 0.1 for more focused and definitive responses
     )
-    return response.choices[0].text.strip()
+    
+    # Extract the text from the response
+    answer = response['choices'][0]['message']['content'].strip()
+    return answer

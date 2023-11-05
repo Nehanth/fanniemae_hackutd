@@ -12,20 +12,20 @@ def display():
     df = None  # Initialize df to None
     
     if data_source == 'Input your own data':
-        with st.form(key='user_input_form'):
-            st.write('Please enter your data:')
-            gross_monthly_income = st.number_input('Gross Monthly Income', value=0)
-            credit_card_payment = st.number_input('Credit Card Payment', value=0)
-            car_payment = st.number_input('Car Payment', value=0)
-            student_loan_payments = st.number_input('Student Loan Payments', value=0)
-            appraised_value = st.number_input('Appraised Value', value=0)
-            down_payment = st.number_input('Down Payment', value=0)
-            loan_amount = st.number_input('Loan Amount', value=0)
-            monthly_mortgage_payment = st.number_input('Monthly Mortgage Payment', value=0)
-            credit_score = st.number_input('Credit Score', value=0)
-            
-            submitted = st.form_submit_button('Submit')
-            
+      with st.form(key='user_input_form'):
+        st.write('Please enter your data:')
+        gross_monthly_income = st.number_input('Gross Monthly Income', value=0)
+        credit_card_payment = st.number_input('Credit Card Payment', value=0)
+        car_payment = st.number_input('Car Payment', value=0)
+        student_loan_payments = st.number_input('Student Loan Payments', value=0)
+        appraised_value = st.number_input('Appraised Value', value=0)
+        down_payment = st.number_input('Down Payment', value=0)
+        loan_amount = st.number_input('Loan Amount', value=0)
+        monthly_mortgage_payment = st.number_input('Monthly Mortgage Payment', value=0)
+        credit_score = st.number_input('Credit Score', value=0)
+        
+        submitted = st.form_submit_button('Submit')
+        
         if submitted:
             data = {
                 'GrossMonthlyIncome': [gross_monthly_income],
@@ -67,5 +67,10 @@ def display():
     # ChatGPT advice
     question = st.text_input('Ask for advice or clarification:')
     if question:
-        response = get_chatgpt_response(question)
-        st.write(response)
+        if df is not None and not df.empty:
+            user_financial_data = df.iloc[user_index].to_string()
+            response = get_chatgpt_response(question, user_financial_data)
+            st.write(response)
+        else:
+            st.warning("Please input data or upload a dataset to proceed.")
+

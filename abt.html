@@ -1,0 +1,2553 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#" html-attribute-placeholder="-">
+  <head>
+    <base href="https://www.fanniemae.com/">
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"e39adbc7f3",applicationID:"324267877"};;/*! For license information please see nr-loader-rum-1.246.1.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>S,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function S(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{Array.isArray(e[o])&&Array.isArray(t[o])?n[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.246.1",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.246.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.246.1.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.246.1.PROD"]=self["webpackChunk:NRBA-1.246.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The page action feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The js errors feature is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),S=i(9251);class N extends f{static featureName=S.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,S.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,S.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,S.t,this.ee))),this.importAggregator())}}var C=i(3081);class P extends f{static featureName=C.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The session trace feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,N,P],loaderType:"lite"})})()})();</script>
+<meta name="description" content="We facilitate equitable and sustainable access to homeownership and quality, affordable rental housing across America." />
+<link rel="canonical" href="https://www.fanniemae.com/" />
+<link rel="shortlink" href="https://www.fanniemae.com/" />
+<meta name="format-detection" content="telephone=no" />
+<meta property="og:title" content="Mortgage Financing and Reliable Housing Information | Fannie Mae" />
+<meta property="og:description" content="We facilitate equitable and sustainable access to homeownership and quality, affordable rental housing across America." />
+<meta name="twitter:description" content="We facilitate equitable and sustainable access to homeownership and quality, affordable rental housing across America." />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "Home | https://www.fanniemae.com/home",
+            "breadcrumb": []
+        }
+    ]
+}</script>
+<meta itemprop="acquia_lift:content_title" content="Home" />
+<meta itemprop="acquia_lift:content_type" content="landing_page" />
+<meta itemprop="acquia_lift:page_type" content="node page" />
+<meta itemprop="acquia_lift:language" content="en" />
+<meta itemprop="acquia_lift:content_section" content="" />
+<meta itemprop="acquia_lift:content_keywords" content="" />
+<meta itemprop="acquia_lift:post_id" content="29556" />
+<meta itemprop="acquia_lift:content_uuid" content="c4736f58-f486-496c-9ea8-df067242389f" />
+<meta itemprop="acquia_lift:published_date" content="1680788441" />
+<meta itemprop="acquia_lift:persona" content="" />
+<meta itemprop="acquia_lift:engagement_score" content="1" />
+<meta itemprop="acquia_lift:account_id" content="FANNIEMAE" />
+<meta itemprop="acquia_lift:site_id" content="corp_prod" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://builder.lift.acquia.com" />
+<meta itemprop="acquia_lift:liftDecisionAPIURL" content="https://us.perz-api.cloudservices.acquia.io" />
+<meta itemprop="acquia_lift:bootstrapMode" content="auto" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="trusted" />
+<meta itemprop="acquia_lift:apiVersion" content="v3" />
+<script src="https://builder.lift.acquia.com/lift.js" async></script>
+<link rel="icon" href="/themes/custom/particle/apps/drupal-corp/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" hreflang="en" href="https://www.fanniemae.com/" />
+<script src="/sites/g/files/koqyhd191/files/google_tag/fm_container/google_tag.script.js?s3kdx1" defer></script>
+
+    <title>Mortgage Financing and Reliable Housing Information | Fannie Mae</title>
+    <link rel="stylesheet" media="all" href="/sites/g/files/koqyhd191/files/css/css_k9kE5QmtvMV5Jqpq1Nq6a5iX4qc2kzj9Qxl9vyLJSI0.css" />
+<link rel="stylesheet" media="all" href="/sites/g/files/koqyhd191/files/css/css_SoniY1Gpg3L0qd9JQucHofrOOjpFIgAGscxSvAW4cko.css" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/29556","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"bu":{"_core":{"default_config_hash":"hHRgRa8uaUJPBEvzD2uaerY4Z9xdbV4glRDRNp8euEE"},"notify_ie":-5,"notify_firefox":-4,"notify_opera":-4,"notify_safari":-2,"notify_chrome":-4,"insecure":true,"unsupported":false,"mobile":true,"visibility_type":"hide","visibility_pages":"admin\/*","position":"top","new_window":true,"no_close":false,"test_mode":false,"source":"\/\/browser-update.org\/update.min.js"},"fmDatalayer":{"core":{"siteVersion":"10.0.11","pagePublishDate":"10-03-23","pageType":"landing_page"},"site":"mf"},"isAdmin":false,"isNode":true,"isGlossary":false,"currentLanguage":"en","data":{"extlink":{"extTarget":true,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"0","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"(fm\\.fanniemae\\.com)|(fm-acpt.fanniemae.com)","extInclude":"(\/media\/document\/)|(\/media\/[0-9]*$)|(\/external-resource\/)|(\/imported-content\/pers\/)","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["fanniemae.com","www.fanniemae.com","futurehousingleaders.com","www.knowyouroptions.com","knowyouroptions.com","fm.fanniemae.com"]}},"ajaxTrustedUrl":{"form_action_p_pvdeGsVG5zNF_XLGPTvYSKCf43t8qZYSwcfZl2uzM":true},"ajax":[],"user":{"uid":0,"permissionsHash":"de6cc1dad335faa7ca051324fc9aee9493e06868634582e2daa03121022a6fcf"}}</script>
+<script src="/sites/g/files/koqyhd191/files/js/js_ujf8OK2qiHniiEQb_NHl6i01ZAL0N5JjULN8UnVpinY.js"></script>
+
+  </head>
+  <body class="fm-preview--off home">
+        <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7L6LT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <div class="fm-header">
+      <div>
+    <div id="block-fmplatformnav" data-block-plugin-id="system_menu_block:fm-platform-nav">
+  
+    
+      
+
+
+<div aria-label="Consumer Global Navigation" class="mega consumer-global-nav">
+  <div>
+    <nav role="navigation"
+         class="consumer-global-nav__right mega_menu_nav consumer-global-nav__container container-fluid">
+        <span class="navbar-text">
+     Homebuyers, Owners, & Renters
+    </span>
+      <span class="consumer-global-nav__toggle"></span>
+      <ul class="consumer-global-nav__nav datalayer-nav__container-fm-platform list-unstyled">
+                  <span class="left-nav">
+          
+                        <li
+              class="consumer-global-nav__primary-nav-item consumer-global-nav__primary-nav-item--default  ">
+                                                <a href="https://www.fanniemae.com">Homebuyers, Owners, and Renters</a>
+                                          </li>
+
+          
+                        <li
+              class="consumer-global-nav__primary-nav-item consumer-global-nav__primary-nav-item--default  has-mega">
+                                                <a href="" class="dropdown-toggle"
+                     data-toggle="dropdown">Business Partners
+                    <span class="consumer-global-nav__nav-toggle"></span></a>
+                  <div class="dropdown-menu dropdown-fullwidth">
+                    
+  
+  <div class="menu_link_content menu-link-contentfm-platform-nav view-mode-default menu-dropdown container menu-dropdown-0 menu-type-default">
+                <div class="layout layout--threecol-section layout--threecol-section--33-34-33">
+
+          <div  class="layout__region layout__region--first">
+        
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h6 class="color--dark-blue"><a href="http://singlefamily.fanniemae.com/" rel="noopener">Single-Family Business</a></h6>
+
+<p>Helping lenders serve homebuyers and homeowners with affordable mortgages</p>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+<!--/*--><![CDATA[/* ><!--*/
+@media (min-width:1120px) {
+    .consumer-global-nav__nav .layout__region.layout__region--first, .layout__region.layout__region--second { position: relative }
+    .consumer-global-nav__nav .layout__region.layout__region--first:after, .consumer-global-nav__nav .layout__region.layout__region--second:after { content: " "; position: absolute; border-left: 1px #6c757d solid; top: 22%; right: 0; height: 49%; margin-top: auto; margin-bottom: auto }
+    .consumer-global-nav .layout__region { padding: 1em 1em 1em 4em }
+}
+
+/*--><!]]]]><![CDATA[>*/
+
+/*--><!]]>*/
+</style></div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h6 class="color--dark-blue"><a href="http://multifamily.fanniemae.com" rel="noopener">Multifamily Business</a></h6>
+
+<p>Financing for quality, affordable rental housing in every market, every day</p>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--third">
+        
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h6 class="color--dark-blue"><a href="http://capitalmarkets.fanniemae.com" rel="noopener">Capital Markets</a></h6>
+
+<p>Reducing risk and enhancing housing finance liquidity</p>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+      </div>
+    
+  </div>
+
+      </div>
+
+
+
+                  </div>
+                                          </li>
+
+                    </span>
+          <span class="right-nav">
+          
+                        <li
+              class="consumer-global-nav__primary-nav-item consumer-global-nav__primary-nav-item--default has-submenu ">
+                              <a href="/about-us" aria-haspopup="true" aria-expanded="false"
+                   class="consumer-global-nav__primary-nav-link">About Us</a>
+                <span class="consumer-global-nav__nav-toggle">toggle</span>
+                <ul class="consumer-global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/who-we-are"
+                                              >
+                        Who We Are
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/who-we-are/awards-and-recognition">
+                                Awards and Recognition
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/who-we-are/diversity-and-inclusion">
+                                Diversity and Inclusion
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/who-we-are/diversity-and-inclusion/employee-resource-groups">
+                                        Employee Resource Groups
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/who-we-are/diversity-and-inclusion/progress-purpose">
+                                        Progress With Purpose
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/who-we-are/employee-code-conduct">
+                                Employee Code of Conduct
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/who-we-are/community-engagement">
+                                Community Engagement
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/who-we-are/history">
+                                History
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/what-we-do"
+                                              >
+                        What We Do
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/duty-to-serve">
+                                Duty to Serve
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/duty-to-serve/manufactured-housing">
+                                        Manufactured Housing
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/duty-to-serve/affordable-housing-preservation">
+                                        Affordable Housing Preservation
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/duty-to-serve/rural-housing">
+                                        Rural Housing
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/duty-to-serve/research-initiatives">
+                                        Research Initiatives
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/duty-to-serve/colonias-investment-areas-research">
+                                        Colonias Investment Areas
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/homeownership">
+                                Homeownership
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/homeownership/access-mortgage-credit">
+                                        Access to Mortgage Credit
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/what-we-do/homeownership/restrictive-covenants">
+                                        Restrictive Covenants
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/innovation">
+                                Innovation
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/mortgage-finance-america">
+                                Mortgage Finance in America
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/financial-performance">
+                                Financial Performance
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/disaster-resiliency-and-relief">
+                                Disaster Resiliency and Relief
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/what-we-do/pilot-transparency">
+                                Pilot Transparency
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/fannie-mae-leadership-team"
+                                              >
+                        Leadership Team
+                                                                                                </a>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/corporate-governance"
+                                              >
+                        Corporate Governance
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/corporate-governance-guidelines">
+                                Corporate Governance Guidelines
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/fannie-mae-charter">
+                                Fannie Mae Charter
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/board-directors">
+                                Board of Directors
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/fannie-mae-board-committees">
+                                Committees
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/board-committee-charters">
+                                Committee Charters
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/fannie-mae-code-conduct-board-directors">
+                                Code of Conduct
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/bylaws">
+                                Bylaws
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/contacting-board-directors">
+                                Contacting the Board of Directors
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/corporate-governance/ahar-and-amr">
+                                Housing Reports
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/investor-relations"
+                                              >
+                        Investor Relations
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/quarterly-and-annual-results">
+                                Quarterly and Annual Results
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/annual-reports">
+                                Annual Reports
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/sec-filings">
+                                SEC Filings
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/financial-information/sec-filings">
+                                        All SEC Filings
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/annual-filings">
+                                        Annual Filings
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/quarterly-filings">
+                                        Quarterly Filings
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/current-reports">
+                                        Current Reports
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/section-filings">
+                                        Section 16 Filings
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://fanniemae.gcs-web.com/proxy-filings">
+                                        Proxy Filings
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/additional-disclosures">
+                                Additional Disclosures
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/investor-relations/monthly-summary">
+                                        Monthly Summary
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/investor-relations/capital-disclosures">
+                                        Capital Disclosures
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/stock-information">
+                                Stock Information
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="https://fanniemae.gcs-web.com/stock-information/stock-quote">
+                                Current Stock Information
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/investor-relations/investor-contact-information">
+                                Contact Information
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/about-us/esg"
+                                              >
+                        ESG
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/esg/learn-about-our-business">
+                                Learn about our business
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/esg/environmental">
+                                Environmental
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/esg/social">
+                                Social
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/about-us/esg/social/equitable-housing-finance-plan">
+                                        Equitable Housing Finance Plan
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/esg/governance">
+                                Governance
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="https://capitalmarkets.fanniemae.com/sustainable-bonds">
+                                Sustainable Bonds
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://capitalmarkets.fanniemae.com/sustainable-bonds/green-bonds">
+                                        Green Bonds
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="https://capitalmarkets.fanniemae.com/sustainable-bonds/social-bonds">
+                                        Social Bonds
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/about-us/esg/reports-disclosures">
+                                Reports &amp; Disclosures
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/esg-report">
+                                        2021 ESG Report
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/research-and-insights"
+                                              >
+                        Research &amp; Insights
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/research-and-insights/forecast">
+                                Forecast
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/forecast/forecast-monthly-archive">
+                                        Monthly Archive
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/forecast/economic-housing-weekly-note-archive">
+                                        Weekly Archive
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/research-and-insights/surveys">
+                                Surveys &amp; Indices
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/surveys-indices/national-housing-survey">
+                                        National Housing Survey
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/surveys/mortgage-lender-sentiment-survey">
+                                        Mortgage Lender Sentiment Survey
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/surveys-indices/fannie-mae-home-price-index">
+                                        Fannie Mae Home Price Index
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/surveys-indices/refinance-application-level-index">
+                                        Refinance Application-Level Index
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/surveys-indices/special-topics">
+                                        Special Topics
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/research-and-insights/publications">
+                                Publications
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/publications/fannie-mae-working-papers">
+                                        Fannie Mae Working Papers
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/publications/housing-insights">
+                                        Housing Insights
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/publications/partner-research">
+                                        Partner Research
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/publications/publications-archive">
+                                        Publications Archive
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/research-and-insights/perspectives">
+                                Perspectives
+                              </a>
+                                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                                <ul class="consumer-global-nav__fourth-nav-wrapper list-unstyled">
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/perspectives/fannie-mae-perspectives-2020-archive">
+                                        Archive - 2020
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/perspectives/fannie-mae-perspectives-2021-archive">
+                                        Archive - 2021
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/perspectives/fannie-mae-perspectives-2022-archive">
+                                        Archive - 2022
+                                      </a>
+                                    </li>
+                                                                      <li class="consumer-global-nav__fourth-nav-item">
+                                      <a href="/research-and-insights/perspectives/fannie-mae-perspectives-2023-archive">
+                                        Archive - 2023
+                                      </a>
+                                    </li>
+                                                                  </ul>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/newsroom"
+                                              >
+                        Newsroom
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/newsroom/fannie-mae-news">
+                                News
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/newsroom/media-resources">
+                                Media Resources
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                  </ul>
+                          </li>
+          
+                        <li
+              class="consumer-global-nav__primary-nav-item consumer-global-nav__primary-nav-item--default has-submenu ">
+                              <a href="/careers" aria-haspopup="true" aria-expanded="false"
+                   class="consumer-global-nav__primary-nav-link">Careers</a>
+                <span class="consumer-global-nav__nav-toggle">toggle</span>
+                <ul class="consumer-global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/careers/our-teams"
+                                              >
+                        Our Teams
+                                                                                                </a>
+                                              <span class="consumer-global-nav__nav-toggle">toggle</span>
+                        <ul class="consumer-global-nav__tertiary-nav-wrapper list-unstyled">
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/careers/our-teams/corporate-teams">
+                                Corporate Teams
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/careers/our-teams/data-analytics">
+                                Data &amp; Analytics
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/careers/our-teams/digital-technology">
+                                Digital &amp; Technology
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/careers/our-teams/mortgage-customer-solutions">
+                                Mortgage &amp; Customer Solutions
+                              </a>
+                                                          </li>
+                                                      <li class="consumer-global-nav__tertiary-nav-item">
+                              <a href="/careers/our-teams/risk-management">
+                                Risk Management
+                              </a>
+                                                          </li>
+                                                  </ul>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/careers/life-fannie-mae"
+                                              >
+                        Life at Fannie Mae
+                                                                                                </a>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/careers/diversity-inclusion"
+                                              >
+                        Diversity &amp; Inclusion
+                                                                                                </a>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/careers/benefits"
+                                              >
+                        Benefits &amp; Professional Development
+                                                                                                </a>
+                                          </li>
+                                      <li class="consumer-global-nav__secondary-nav-item">
+                      <a href="/careers/campus"
+                                              >
+                        Campus
+                                                                                                </a>
+                                          </li>
+                                  </ul>
+                          </li>
+          
+                        <li
+              class="consumer-global-nav__primary-nav-item consumer-global-nav__primary-nav-item--default  ">
+                                                <a href="/about-us/contact-us">Contact Us</a>
+                                          </li>
+                      
+            <span class="for-front">
+               <li class="translate">
+                  <div class="lang"><div class="fm-translate-language-selection-form" translate="no" data-drupal-selector="fm-translate-language-selection-form" data-block-plugin-id="fm_translate_language_select">
+  
+    
+      <form action="/" method="post" id="fm-translate-language-selection-form" accept-charset="UTF-8">
+  <div class="fm-translate-api__styles">
+  <div class="google-translate__disclaimer">
+    <div class="modal__wrapper" translate="yes">
+      
+            <div class="modal fade" id="fm-translate-disclaimer" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4>
+                Google Translate Disclaimer
+              </h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><i class="fas fa-times"></i></span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                The Google Translate feature is a third-party service that is available for informational purposes only. Fannie Mae is unable to guarantee the accuracy of any translation resulting from the tool and is not responsible for any event or damage that occurs as a result of using the translations generated by the Google Translate feature.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary modal-footer__ok" data-dismiss="modal" aria-label="Close">
+                OK
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-block-plugin-id="fm_translate_language_select" class="fm-translate__api">
+    <form class="" translate="no"
+          data-drupal-selector="fm-translate-language-selection-form" action="/" method="post"
+          id="fm-translate-language-selection-form" accept-charset="UTF-8">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="languageSelectButton" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+          <span class="translate__button-text">Translate</span>
+        </button>
+        <div class="translate__wrapper">
+          <a class="modal__trigger-action disclaimer" data-toggle="modal" data-target="#fm-translate-disclaimer" translate="no">
+            Translation Disclaimer
+          </a>
+          <div class="dropdown-menu translate__body" aria-labelledby="languageSelectButton">
+            <div class="language-item dropdown-item" data-value="zh-hant">Chinese, Traditional</div>
+            <div class="language-item dropdown-item" data-value="en">English</div>
+            <div class="language-item dropdown-item" data-value="fil">Filipino</div>
+            <div class="language-item dropdown-item" data-value="ko">Korean</div>
+            <div class="language-item dropdown-item" data-value="es">Spanish</div>
+            <div class="language-item dropdown-item" data-value="vi">Vietnamese</div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</form>
+
+  </div>
+</div>
+               </li>
+            </span>
+          </span>
+              </ul>
+
+    </nav>
+  </div>
+</div>
+
+
+  </div>
+
+  </div>
+
+      <div>
+    <nav role="navigation" aria-labelledby="block-fmsitenav-menu" id="block-fmsitenav" data-block-plugin-id="system_menu_block:fm-site-nav">
+            
+  <h2 class="block-title typog-custom visually-hidden" id="block-fmsitenav-menu">FM Site Nav</h2>
+  
+
+        
+
+<div aria-label="Global Navigation" class="global-nav mega mega-menu-component">
+  <div class="global-nav__container container-fluid">
+    <a href="https://www.fanniemae.com/" class="fm-logo">
+      <span class="sr-only">Homepage</span>
+                    
+      <img src="/themes/custom/particle/dist/app-drupal-corp/assets/fannie-mae-logo-white.png" alt="Fannie Mae logo" >
+            </a>
+    <nav role="navigation" class="global-nav__right mega_menu_nav">
+      <button class="global-nav__toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="global-nav__toggle-bar"></span>
+        <span class="global-nav__toggle-bar"></span>
+        <span class="global-nav__toggle-bar"></span>
+      </button>
+      <ul class="global-nav__nav datalayer-nav__container-fm-site list-unstyled">
+                              
+            <li
+              class="global-nav__primary-nav-item global-nav__primary-nav-item--default has-submenu ">
+                              <a href="https://yourhome.fanniemae.com/rent" aria-haspopup="true" aria-expanded="false"
+                   class="global-nav__primary-nav-link">Rent</a>
+                <span class="global-nav__nav-toggle"></span>
+                <ul class="global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/rent"
+                                                  aria-label="All Renter Resources site (opens in new tab)"
+                                              >
+                        All Renter Resources
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/rent/rental-process"
+                                                  aria-label="The Rental Process site (opens in new tab)"
+                                              >
+                        The Rental Process
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/rent/make-rent-count"
+                                                  aria-label="Make Your Rent Count site (opens in new tab)"
+                                              >
+                        Make Your Rent Count
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/rent/credit-basics"
+                                                  aria-label="Credit Basics site (opens in new tab)"
+                                              >
+                        Credit Basics
+                                                    </a>
+                                          </li>
+                                  </ul>
+                          </li>
+                      
+            <li
+              class="global-nav__primary-nav-item global-nav__primary-nav-item--default has-submenu ">
+                              <a href="https://yourhome.fanniemae.com/buy" aria-haspopup="true" aria-expanded="false"
+                   class="global-nav__primary-nav-link">Buy</a>
+                <span class="global-nav__nav-toggle"></span>
+                <ul class="global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/buy"
+                                                  aria-label="All Homebuyer Resources site (opens in new tab)"
+                                              >
+                        All Homebuyer Resources
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/buy#steps-to-homeownership"
+                                                  aria-label="7 Steps to Homeownership site (opens in new tab)"
+                                              >
+                        7 Steps to Homeownership
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://www.fanniemae.com/education"
+                                                  aria-label="HomeView Homeownership Education Course site (opens in new tab)"
+                                              >
+                        HomeView Homeownership Education Course
+                                                    </a>
+                                          </li>
+                                  </ul>
+                          </li>
+                      
+            <li
+              class="global-nav__primary-nav-item global-nav__primary-nav-item--default has-submenu ">
+                              <a href="https://yourhome.fanniemae.com/own" aria-haspopup="true" aria-expanded="false"
+                   class="global-nav__primary-nav-link">Own</a>
+                <span class="global-nav__nav-toggle"></span>
+                <ul class="global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/own"
+                                                  aria-label="All Homeowner Resources site (opens in new tab)"
+                                              >
+                        All Homeowner Resources
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/own#make-the-most-of-your-home"
+                                                  aria-label="Make the Most of Your Home site (opens in new tab)"
+                                              >
+                        Make the Most of Your Home
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/own#refinancing-your-mortgage"
+                                                  aria-label="Refinancing Your Mortgage site (opens in new tab)"
+                                              >
+                        Refinancing Your Mortgage
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/own#when-its-time-to-sell"
+                                                  aria-label="When It’s Time to Sell site (opens in new tab)"
+                                              >
+                        When It’s Time to Sell
+                                                    </a>
+                                          </li>
+                                  </ul>
+                          </li>
+                      
+            <li
+              class="global-nav__primary-nav-item global-nav__primary-nav-item--default  has-mega">
+                                                                <a href="https://yourhome.fanniemae.com/get-relief" class="dropdown-toggle"
+                     data-toggle="dropdown">Get Relief
+                    <span class="global-nav__nav-toggle"></span></a>
+                  <div class="dropdown-menu dropdown-fullwidth">
+                    
+  
+  <div class="menu_link_content menu-link-contentfm-site-nav view-mode-default menu-dropdown container menu-dropdown-0 menu-type-default">
+                <div class="layout layout--twocol-section layout--twocol-section--50-50">
+
+          <div  class="layout__region layout__region--first">
+        
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h5 class="color--dark-blue"><a href="https://yourhome.fanniemae.com/get-relief">Manage Financial Uncertainty</a></h5>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief">All Resources to Manage Financial Uncertainty</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief#help-for-homeowners">Help for Homeowners</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief#help-for-renters">Help for Renters</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief/avoid-housing-scams">Protect Yourself from Fraud</a></p>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+      </div>
+    
+          <div  class="layout__region layout__region--second">
+        
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h5 class="color--dark-blue"><a href="https://yourhome.fanniemae.com/get-relief/disaster">Recover from a Disaster</a></h5>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief/disaster">All Resources for Recovering from a Disaster</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief/disaster#recovery-help-for-homeowners">Recovery Assistance for Homeowners</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief/disaster#recovery-help-for-renters">Recovery Assistance for Renters</a></p>
+
+<p><a href="https://yourhome.fanniemae.com/get-relief/avoid-housing-scams">Protect Yourself from Fraud</a></p>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+@media (min-width:1120px) {
+    .global-nav__primary-nav-item.has-mega .dropdown-fullwidth .menu-dropdown-0 {
+        max-width: 800px;
+        padding-right: 0;
+    }
+
+}
+
+/*--><!]]>*/
+</style></div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+      </div>
+    
+  </div>
+
+      </div>
+
+
+
+                  </div>
+                
+                          </li>
+                      
+            <li
+              class="global-nav__primary-nav-item global-nav__primary-nav-item--default has-submenu ">
+                              <a href="https://yourhome.fanniemae.com/calculators-tools" aria-haspopup="true" aria-expanded="false"
+                   class="global-nav__primary-nav-link">Calculators &amp; Tools</a>
+                <span class="global-nav__nav-toggle"></span>
+                <ul class="global-nav__secondary-nav-wrapper list-unstyled">
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/calculators-tools"
+                                                  aria-label="All Calculators &amp; Tools site (opens in new tab)"
+                                              >
+                        All Calculators &amp; Tools
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/calculators-tools#rent"
+                                                  aria-label="Tools for Renters site (opens in new tab)"
+                                              >
+                        Tools for Renters
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/calculators-tools#buy"
+                                                  aria-label="Tools for Homebuyers site (opens in new tab)"
+                                              >
+                        Tools for Homebuyers
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/calculators-tools#own"
+                                                  aria-label="Tools for Homeowners site (opens in new tab)"
+                                              >
+                        Tools for Homeowners
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://www.fanniemae.com/education"
+                                                  aria-label="HomeView® Homeownership Education Course site (opens in new tab)"
+                                              >
+                        HomeView® Homeownership Education Course
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://yourhome.fanniemae.com/calculators-tools/glossary-key-terms"
+                                                  aria-label="Glossary site (opens in new tab)"
+                                              >
+                        Glossary
+                                                    </a>
+                                          </li>
+                                      <li class="global-nav__secondary-nav-item">
+                      <a href="https://www.fanniemae.com/mobileapp"
+                                                  aria-label="Mobile App site (opens in new tab)"
+                                              >
+                        Mobile App
+                                                    </a>
+                                          </li>
+                                  </ul>
+                          </li>
+                        </ul>
+      <button aria-label="Open search" class="global-nav__toggle-search fm-toggle-search coveo-search-toggle">
+        <span class="sr-only">Toggle search</span>
+        <i aria-hidden="true" class="fas fa-search fm-toggle-search"></i>
+      </button>
+    </nav>
+  </div>
+</div>
+
+  </nav>
+<div id="block-corpcoveosearch" data-block-plugin-id="corp_coveo_search">
+  
+    
+      
+
+
+<link href="https://static.cloud.coveo.com/searchui/v2.10112/0/css/CoveoFullSearch.min.css" rel="stylesheet">
+<script class="coveo-script" src="https://static.cloud.coveo.com/searchui/v2.10112/0/js/CoveoJsSearch.Lazy.min.js"></script>
+<script type="text/javascript" src="https://static.cloud.coveo.com/coveo.analytics.js/2/coveoua.js"></script>
+
+<div class="coveo-search--nav container fm-search__form-block fm-search__form-block--header">
+  <div class="fm-search__form-wrapper">
+    <div id="searchbox" data-pipeline="corporate &amp; capital-markets &amp; consumer" class="fm-search__form">
+      <div class="CoveoSearchbox" data-enable-omnibox="true" data-enable-query-suggest-addon="true"></div>
+    </div>
+    <input type="hidden" name="tags" value="corporate" />
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  Coveo.SearchEndpoint.endpoints['default'] = new Coveo.SearchEndpoint({
+    restUri: 'https://platform.cloud.coveo.com/rest/search',
+    accessToken: 'xx3ce2a898-ed09-4acc-a597-b951d2eb95bc'
+  });
+
+  var root = Coveo.$$(document).find("#searchbox");
+
+  Coveo.initSearchbox(root, "/search", {
+    Searchbox : {
+      placeholder : "Search",
+    }
+  });
+
+  var varTags = document.querySelector('input[name=tags]') ? document.querySelector('input[name=tags]').value : '';
+
+  Coveo.state(Coveo.$$(document).find("#searchbox"), {
+    "f:@tags" :  [varTags]
+  });
+
+});
+
+var accessToken = 'xx3ce2a898-ed09-4acc-a597-b951d2eb95bc';
+var fieldName = "@clickableuri";
+var fieldValue = function () {return location.href }
+var itemType = "";
+
+/**
+ * Sets multiple attributes on an element.
+ */
+function setAttributes(el, attrs) {
+  for(var key in attrs) {
+    if (el !== 'undefined' && el !== null) {
+      el.setAttribute(key, attrs[key]);
+    }
+  }
+}
+
+setTimeout(function(){
+  coveoua("init", accessToken);
+  coveoua("send", "pageview", {
+    contentIdKey: fieldName,
+    contentIdValue: fieldValue(),
+    contentType: itemType,
+  });
+  var searchInputs = document.querySelectorAll('.CoveoSearchbox');
+
+  for (var i = 0; i < searchInputs.length; i++) {
+    setAttributes(searchInputs[i].getElementsByClassName('CoveoSearchButton')[0], {
+      'role': 'button',
+      'title': 'Search',
+      'tabindex': '0',
+    });
+    setAttributes(searchInputs[i].getElementsByTagName('input')[0], {
+      'name': 'Search',
+      'aria-label': 'Search',
+    });
+    setAttributes(searchInputs[i].getElementsByClassName('magic-box-clear-svg')[0], {
+      'role': 'button',
+      'aria-label': 'Clear search',
+      'tabindex': '0',
+    });
+    setAttributes(searchInputs[i].getElementsByClassName('coveo-search-button-svg')[0], {
+      'role': 'presentation'
+    });
+  }
+
+}, 3000);
+
+var coveoInput;
+var suggestions;
+var searchBox = document.querySelector('#searchbox');
+
+document.addEventListener('click', function (event) {
+  // If the clicked element doesn't have the right selector, bail
+  if (!event.target.classList.contains('fm-toggle-search')) {
+    return;
+  } else {
+    suggestions = searchBox.querySelector('.magic-box-suggestions');
+    coveoInput = searchBox.querySelector('input');
+    // On input keyup, if there is a value, hide breadcrumbs; else, show breadcrumbs
+    coveoInput.addEventListener('keyup', function (event) {
+      if (coveoInput.value.length) {
+        document.querySelector('.hero__breadcrumbs').classList.add('d-xs-none');
+      } else {
+        document.querySelector('.hero__breadcrumbs').classList.remove('d-xs-none');
+      }
+    });
+  }
+});
+</script>
+
+  </div>
+
+<div id="block-heretohelpnaturaldisasterbanner" data-block-plugin-id="block_content:cd1bfd0d-dddb-432c-b9cf-403a1e55bcc4" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+a.severe-weather-link:hover{text-decoration: underline;}
+
+/*--><!]]>*/
+</style><div style="background: #C55422; padding: 15px 20px 20px 20px; text-align: center; margin-bottom: -60px;"><a class="severe-weather-link" href="https://yourhome.fanniemae.com/get-relief/disaster" style="color: #ffffff;"><strong>If you’ve been affected by recent hurricanes, wildfires, or other disasters, we’re here to help</strong><i class="fa fa-chevron-right  pl-3 pt-1" style="margin-left: -5px;"> </i></a></div>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+  </div>
+
+  </div>
+
+  
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"><span class="sr-only">Skip to main content</span></a>
+          <div class="container">
+         <div>
+    <div id="block-corpjumplinkfixtemp" data-block-plugin-id="block_content:2d183eb2-1b77-4669-93f1-a3e2e348bafe">
+  
+    
+  <div class="custom-javascript" style="min-height: 10px;">
+    <style>.custom-javascript {min-height: 0 !important;}</style>
+<script>
+  jQuery(document).ready(function ($) {
+    $('a[href^="#"]').on('click', e => {
+      const $target = $(e.currentTarget).attr('href');
+      window.location = $target;
+    });
+  });
+</script>
+  </div>
+</div>
+
+  </div>
+
+      </div>
+    
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div><div id="block-particle-corp-content" data-block-plugin-id="system_main_block">
+  
+    
+        <link rel="stylesheet" media="all"
+        href="/sites/g/files/koqyhd191/files/tax-css/2023-08/home-refresh_0.css">
+<article role="article">
+
+  
+    
+
+  
+  <div>
+    
+  
+
+  <div class="layout masthead-custom">
+
+    
+
+
+  
+
+
+
+  
+<section  id="home-hero"   class="fm-layout    fm-layout--full-width fm-layout--region-large     swoosh-none"  >
+
+    <div class="inner-container">
+
+  
+  
+  
+      <div class=" ">
+              <div  class="layout__region layout__region--main">
+          <div data-block-plugin-id="inline_block:carousel" class="inline-block-carousel">
+  
+    
+      
+            <div>
+
+<div class="component-space-lg">
+  
+    
+  
+
+
+
+<div class="carousel__wrapper carousel__wrapper--hero " aria-label="Carousel" role="contentinfo">
+  <div id="carousel-1787440481" class="carousel carousel--hero fm-carousel slide"
+    data-slides-to-show="1"
+    data-autoplay="1"
+    data-speed="5000"
+          data-fade="true"
+      >
+                                                                                                                                                                                                                                              <div class="fm-carousel-item carousel-item">
+            
+
+
+<div class="hero hero--landing hero--homepage">
+  <div class="overlay"></div>
+  <div class="hero__image object-fit-cover">
+        
+            <div>
+  
+            <div>  <img loading="lazy" src="/sites/g/files/koqyhd191/files/styles/16_9_letterbox/public/2023-04/homepage-hero-buyer.jpg?h=d6801dff&amp;itok=pzs_GmmJ" width="2130" height="672" alt="two people sitting at table" />
+
+
+</div>
+      
+</div>
+      
+    </div>
+  <div class="hero__overlay hero__overlay--inner hero__overlay--inner-transparent"></div>
+  <div class="hero__overlay hero__overlay--outer d-none"></div>
+            <div class="hero__content-wrapper">
+        <div class="container style-alternate">
+          <div class="hero__content">
+            <span class="hero__accent"></span>
+            <h1 class="hero__title">Learn how to start building your credit</h1>
+            <div class="hero__description mb-2"><p><a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/rent/credit-basics">Learn more</a></p>
+</div>
+                                  </div>
+        </div>
+      </div>
+      </div>
+
+          </div>
+                                <div class="fm-carousel-item carousel-item">
+            
+
+
+<div class="hero hero--landing hero--homepage">
+  <div class="overlay"></div>
+  <div class="hero__image object-fit-cover">
+        
+            <div>
+  
+            <div>  <img loading="lazy" src="/sites/g/files/koqyhd191/files/styles/16_9_letterbox/public/2023-04/cs2209-1719380_fm.com_refresh_as_needed-rent.jpg?h=cd3a74ff&amp;itok=prV1otJE" width="2130" height="672" alt="person sitting at home" />
+
+
+</div>
+      
+</div>
+      
+    </div>
+  <div class="hero__overlay hero__overlay--inner hero__overlay--inner-transparent"></div>
+  <div class="hero__overlay hero__overlay--outer d-none"></div>
+            <div class="hero__content-wrapper">
+        <div class="container style-alternate">
+          <div class="hero__content">
+            <span class="hero__accent"></span>
+            <h1 class="hero__title">Make your rent count</h1>
+            <div class="hero__description mb-2"><p><a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/rent/make-rent-count">Learn more</a></p>
+</div>
+                                  </div>
+        </div>
+      </div>
+      </div>
+
+          </div>
+                                <div class="fm-carousel-item carousel-item">
+            
+
+
+<div class="hero hero--landing hero--homepage">
+  <div class="overlay"></div>
+  <div class="hero__image object-fit-cover">
+        
+            <div>
+  
+            <div>  <img loading="lazy" src="/sites/g/files/koqyhd191/files/styles/16_9_letterbox/public/2023-04/homepage-hero-owner.jpg?h=d6801dff&amp;itok=iGcYiLCB" width="2130" height="672" alt="person outside kneeling down" />
+
+
+</div>
+      
+</div>
+      
+    </div>
+  <div class="hero__overlay hero__overlay--inner hero__overlay--inner-transparent"></div>
+  <div class="hero__overlay hero__overlay--outer d-none"></div>
+            <div class="hero__content-wrapper">
+        <div class="container style-alternate">
+          <div class="hero__content">
+            <span class="hero__accent"></span>
+            <h1 class="hero__title">Prepare your home for unexpected weather</h1>
+            <div class="hero__description mb-2"><p><a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/own/prepare-home-for-severe-weather">Learn more</a></p>
+</div>
+                                  </div>
+        </div>
+      </div>
+      </div>
+
+          </div>
+                                                </div>
+      <div class="container carousel-indicators__wrapper">
+      <div class="carousel-indicators fm-carousel-control carousel-indicators--inner"></div>
+    </div>
+    </div>
+</div>
+</div>
+      
+  </div>
+
+        </div>
+          </div>
+  
+  
+  
+  
+  
+</section>
+  </div>
+
+  
+
+  <div class="layout masthead-custom">
+
+    
+
+
+  
+
+
+
+  
+<section  id="drop-down"   class="fm-layout    fm-layout--full-width fm-layout--region-large     swoosh-none"   style="background: url('/sites/g/files/koqyhd191/files/2023-04/BG-FullWidthSection-Yellow-Diagonals.png') no-repeat center center/cover;"   >
+
+    <div class="inner-container">
+
+  
+  
+  
+      <div class=" ">
+              <div  class="layout__region layout__region--main">
+          
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h5 class="text-align-center">Answers for some of the most common housing questions</h5>
+<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+#menu-rollover { display: none; }
+
+/*--><!]]>*/
+</style><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#question-select").click(function(){
+$("#menu-rollover").fadeToggle(500);
+});
+});
+
+//--><!]]>
+</script><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#menu-rollover").mouseleave(function(){
+$("#menu-rollover").fadeOut(500);
+});
+});
+
+//--><!]]>
+</script><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#housing-journey").click(function(){
+$("#menu-rollover").fadeOut(500);
+});
+});
+
+//--><!]]>
+</script><div id="common-questions"><a class="menu-select" id="question-select">Find answers from Fannie Mae …</a>
+<ul id="menu-rollover"><li><a href="https://yourhome.fanniemae.com/get-relief/options-to-stay-in-your-home?tab=forbearance">What is forbearance?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/get-relief/disaster">What to do after a disaster?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/own/managing-credit">How to improve my credit score?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/rent/rental-process">What are the steps to rent?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/buy#homeownership">How to purchase a home?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/own/prepare-home-for-severe-weather">How do I prepare my home for severe weather?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/calculators-tools/mortgage-affordability-calculator">How much home can I afford?</a></li>
+	<li><a href="https://yourhome.fanniemae.com/get-relief/housing-counselor-help">How can a housing counselor help?</a></li>
+</ul></div>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+  
+  
+  
+</section>
+  </div>
+
+  
+
+  <div class="layout masthead-custom">
+
+    
+
+
+  
+
+
+
+  
+<section  id="housing-journey"   class="fm-layout    fm-layout--main fm-layout--region-large     swoosh-none container"  >
+
+    <div class="inner-container">
+
+      <div class="fm-layout__row row
+      
+    ">
+
+  
+  
+  
+      <div class="col-xs-12 col-sm-12 col-lg-12 ">
+              <div  class="layout__region layout__region--main">
+          
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h2 class="text-align-center">Explore Tools and Information to Help with Your Housing Journey</h2>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#renters-nav").click(function(){
+$("#basic-tab-1").fadeIn(1);
+$("#basic-tab-2").fadeOut(1);
+$("#basic-tab-3").fadeOut(1);
+});
+});
+
+//--><!]]>
+</script><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#buy-nav").click(function(){
+$("#basic-tab-1").fadeOut(1);
+$("#basic-tab-2").fadeIn(1);
+$("#basic-tab-3").fadeOut(1);
+});
+});
+
+//--><!]]>
+</script><script>
+<!--//--><![CDATA[// ><!--
+
+jQuery(document).ready(function ($) {
+$("#own-nav").click(function(){
+$("#basic-tab-1").fadeOut(1);
+$("#basic-tab-2").fadeOut(1);
+$("#basic-tab-3").fadeIn(1);
+});
+});
+
+//--><!]]>
+</script><div data-block-plugin-id="inline_block:stepper_block">
+<div bis_skin_checked="1" class="stepper-basic-tab">
+<ul class="filter-block__filter-list nav nav-tabs nav-fill border-bottom-0 tabs" role="tablist"><li class="filter-block__filter-item" data-value="Renters" rel="basic-tab-1"><a aria-selected="true" class="stpper-btn filter-block__filter    " data-toggle="tab" href="#renters" id="renters-nav" role="tab"><span class="tab-icon"><img alt="Caucasian woman wearing glasses looks directly at the camera" src="/sites/g/files/koqyhd251/files/2023-02/Rent-cutout.png" /></span> <span class="tab-title mt-3 d-block text-center font-weight-bold ">Renters</span> </a></li>
+	<li class="filter-block__filter-item" data-value="Homebuyers" rel="basic-tab-2"><a aria-selected="" class="stpper-btn filter-block__filter active show" data-toggle="tab" href="#homebuyers" id="buy-nav" role="tab"><span class="tab-icon"><img alt="African American husband and wife look together at a tablet" src="/sites/g/files/koqyhd251/files/2023-01/home-cutouts_buy.png" /></span> <span class="tab-title mt-3 d-block text-center font-weight-bold ">Homebuyers</span> </a></li>
+	<li class="filter-block__filter-item" data-value="Homeowners" rel="basic-tab-3"><a aria-selected="" class="stpper-btn filter-block__filter   " data-toggle="tab" href="#homeowners" id="own-nav" role="tab"><span class="tab-icon"><img alt="Asian father and daughter play piggyback while smiling" src="/sites/g/files/koqyhd251/files/2023-01/home-cutouts_own.png" /></span> <span class="tab-title mt-3 d-block text-center font-weight-bold ">Homeowners</span> </a></li>
+</ul><div class="stepper-block__tab-content">
+<h3 class="d_active tab_drawer_heading" rel="basic-tab-1">Renters</h3>
+
+<div aria-label="Renters" class="tab_content stepper-block__body tab-pane" id="basic-tab-1" role="tabpanel" style="display: none;">
+<div class="body-field"><img alt="" class="mobile-img" src="/sites/g/files/koqyhd251/files/2023-02/Rent-cutout.png" /><p>Sometimes, renting a home may be the best housing option. We’ve collected information for renters, at every stage of the process, and have tips for those thinking about transitioning to homeownership.</p>
+</div>
+
+<div class="body-field supporting_content">
+<div class="stepper-cards">
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/calculators-tools#rent">Tools for renters</a></h6>
+
+<p>Check out Fannie Mae’s tools and checklists to help renters navigate each step of the rental process.</p>
+</div>
+
+<div class="three-col-card with-borders">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/get-relief#help-for-renters">Help for financial uncertainty</a></h6>
+
+<p>Periods of financial uncertainty can be stressful, but assistance may be available to help you get through it.</p>
+</div>
+
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/rent/rental-process">The rental process</a></h6>
+
+<p>A lot happens before you sign a rental agreement and move into your home. Get to know the rental process step by step.</p>
+</div>
+<a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/rent">View all resources for renters</a></div>
+</div>
+</div>
+
+<h3 class="d_active tab_drawer_heading" rel="basic-tab-2">Homebuyers</h3>
+
+<div aria-label="Homebuyers" class="tab_content stepper-block__body tab-pane active show" id="basic-tab-2" role="tabpanel">
+<div class="body-field"><img alt="" class="mobile-img" src="/sites/g/files/koqyhd251/files/2023-01/home-cutouts_buy.png" /><p>Whether you’re just thinking about buying a home or have already started shopping, Fannie Mae offers expert guidance and insight into the homebuying process, your mortgage options, and what to expect along the way.</p>
+</div>
+
+<div class="body-field supporting_content">
+<div class="stepper-cards">
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/calculators-tools#buy">Calculators and checklists</a></h6>
+
+<p>Check out all of Fannie Mae’s tools and resources designed especially for those considering homeownership.</p>
+</div>
+
+<div class="three-col-card with-borders">
+<h6><a class="stepper-link" href="/education">Homeownership education course</a></h6>
+
+<p>Gain an in-depth understanding of the homebuying process with HomeView®, our free online course for homebuyers — in both English and Spanish.</p>
+</div>
+
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/buy/youve-got-options-when-it-comes-home-financing">Affordable mortgage options</a></h6>
+
+<p>Mortgage loans aren’t one-size-fits-all. Before deciding on one, get to know the options available and which may be best for you.</p>
+</div>
+<a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/buy">View all resources for homebuyers</a></div>
+</div>
+</div>
+
+<h3 class="d_active tab_drawer_heading" rel="basic-tab-3">Homeowners</h3>
+
+<div aria-label="Homeowners" class="tab_content stepper-block__body tab-pane " id="basic-tab-3" role="tabpanel" style="display: none;">
+<div class="body-field"><img alt="" class="mobile-img" src="/sites/g/files/koqyhd251/files/2023-01/home-cutouts_own.png" /><p>Homeownership offers many advantages and new responsibilities. From maintaining your home and refinancing to disaster preparedness and ongoing costs, learn how to navigate the ins and outs of owning a home.</p>
+</div>
+
+<div class="body-field supporting_content">
+<div class="stepper-cards">
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/calculators-tools#own">Calculators and tools</a></h6>
+
+<p>Check out all Fannie Mae’s tools and resources designed especially for homeowners.</p>
+</div>
+
+<div class="three-col-card with-borders">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/get-relief#help-for-homeowners">Help for financial uncertainty</a></h6>
+
+<p>Periods of financial uncertainty can be stressful, especially if your home is at risk. Assistance may be available to help you get through it.</p>
+</div>
+
+<div class="three-col-card">
+<h6><a class="stepper-link" href="https://yourhome.fanniemae.com/own/understanding-mortgage-statement">Understand your mortgage statement</a></h6>
+
+<p>There are a lot of numbers, acronyms, and technical terms on your monthly mortgage statement. We can help you understand them.</p>
+</div>
+<a class="button-dark fm-btn" href="https://yourhome.fanniemae.com/own">View all resources for homeowners</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+  
+  
+      </div>
+  
+</section>
+  </div>
+
+  <div class="layout masthead-custom">
+
+    
+
+
+
+
+
+
+  
+<section  id="img-accent-half"   class="fm-layout section-padding color-trigger--accent_blue   fm-layout--two-col      swoosh-none"  >
+
+    <div class="inner-container">
+
+      <div class="fm-layout__row row
+      
+    ">
+
+  
+  
+  
+      <div class="col-xs-12 col-sm-6 ">
+      
+        <div  class="layout__region layout__region--main">
+          
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+    </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+      <div class="col-xs-12 col-sm-6 fm-layout__col-aside">
+              <div  class="layout__region layout__region--aside">
+          
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><h4 class="navy">Take our homeownership education course</h4>
+
+<p>Fannie Mae HomeView®, our free online course for first-time homebuyers, provides detailed information on each step of the buying process. Completing the course may even help you qualify for assistance when buying your first home.</p>
+
+<p><a class="button-dark fm-btn" href="/education">Learn more </a></p>
+</div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+      </div>
+  
+</section>
+  </div>
+
+  
+
+  <div class="layout masthead-custom">
+
+    
+
+
+  
+
+
+
+  
+<section  id="home-cards"   class="fm-layout    fm-layout--main fm-layout--region-large     swoosh-none container"  >
+
+    <div class="inner-container">
+
+      <div class="fm-layout__row row
+      
+    ">
+
+  
+  
+  
+      <div class="col-xs-12 col-sm-12 col-lg-12 ">
+              <div  class="layout__region layout__region--main">
+          <div data-block-plugin-id="inline_block:card_slider">
+  
+    
+      
+            <div>
+
+
+<div class="component-space-lg container px-0">
+    
+
+
+
+<div class="carousel__wrapper carousel__wrapper--card " aria-label="Carousel" role="contentinfo">
+  <div id="carousel-915796715" class="carousel carousel--card carousel--white fm-carousel slide"
+    data-slides-to-show="3"
+    data-autoplay="0"
+    data-speed=""
+      >
+                                                                                                                                                                                                                                              <div class="fm-carousel-item carousel-item">
+            
+
+
+
+<div class="card card--image">
+            <div class="card__image">
+        
+  
+            <div>  <img loading="lazy" src="/sites/g/files/koqyhd191/files/2023-04/cs2210-1718375_fm.com_mission_refresh_-_general_-_image_search_rent_hero_banner.jpg" width="1440" height="755" alt="family dancing in living room" />
+
+</div>
+      
+
+      </div>
+      
+      <h5 class="card__title ">Put your rent payments to work</h5>
+        <p class="card__description">If you consistently pay your rent on time each month, you’re likely to keep up with mortgage payments too. A solid record of rent payments may help you qualify for a mortgage, even if you have a limited credit history.</p>
+              <div class="card__link-wrapper">
+        <a href="https://yourhome.fanniemae.com/rent/make-rent-count" class="card__link fm-btn btn-pill btn-transparent">
+          Learn more
+          <i class="fa fa-chevron-right pl-2" aria-hidden="true"></i>
+        </a>
+      </div>
+      </div>
+
+          </div>
+                                <div class="fm-carousel-item carousel-item">
+            
+
+
+
+<div class="card card--image">
+            <div class="card__image">
+        
+  
+            <div>  <img loading="lazy" src="/sites/g/files/koqyhd191/files/2023-04/gettyimages-1188476949.jpg" width="1440" height="960" alt="Caucasian father and son play with their golden retriever dog" />
+
+</div>
+      
+
+      </div>
+      
+      <h5 class="card__title ">What does Fannie Mae do?</h5>
+        <p class="card__description">We serve homebuyers, homeowners, and renters by creating solutions that expand equitable access to affordable housing. As a resource for homeowners and renters, we also provide reliable information to educate and empower you in your housing decisions.</p>
+              <div class="card__link-wrapper">
+        <a href="/about-us" class="card__link fm-btn btn-pill btn-transparent">
+          Learn more
+          <i class="fa fa-chevron-right pl-2" aria-hidden="true"></i>
+        </a>
+      </div>
+      </div>
+
+          </div>
+                                                </div>
+    </div>
+</div>
+</div>
+      
+  </div>
+
+<div data-block-plugin-id="inline_block:basic" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+body.home .for-front { display: inline-flex !important; }
+
+/*--><!]]>*/
+</style></div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+  
+  
+      </div>
+  
+</section>
+  </div>
+
+  
+
+  <div class="layout masthead-custom">
+
+    
+
+
+  
+
+
+
+  
+<section  id="perz-hero-carousel"   class="fm-layout    fm-layout--main fm-layout--region-large     swoosh-none container"  >
+
+    <div class="inner-container">
+
+      <div class="fm-layout__row row
+      
+    ">
+
+  
+  
+  
+      <div class="col-xs-12 col-sm-12 col-lg-12 ">
+              <div  class="layout__region layout__region--main">
+          <div data-block-plugin-id="inline_block:custom_javascript">
+  
+    
+  <div class="custom-javascript" style="min-height: 10px;">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+ 
+
+<script>
+
+ 
+
+(function ($) {
+$(document).ready(function(){
+    setTimeout(function () {
+  const $carouselWrapper = $('.carousel__wrapper--hero');
+  const $carousel = $carouselWrapper.find('.fm-carousel');
+  const globalSettings = {
+    pauseOnHover: true,
+    draggable: false, 
+    slidesToScroll: 1, 
+    dots: true, 
+    mobileFirst: true, 
+    accessibility: true, 
+    cssEase: 'ease',
+    respondTo: 'window', 
+    touchMove: true, 
+    autoplay: $carousel.data('autoplay'),
+    autoplaySpeed: $carousel.data('speed'),
+    appendDots: $carouselWrapper.find('.carousel-indicators'),
+    prevArrow: $carouselWrapper.find('.carousel-controls--prev'),
+    nextArrow: $carouselWrapper.find('.carousel-controls--next'),
+    fade: $carousel.data('fade'),    
+   };
+  $carousel.slick({
+    ...globalSettings,
+  });
+    }, 200);
+});
+
+ 
+
+})(jQuery);
+
+ 
+
+ 
+
+</script>
+  </div>
+</div>
+
+        </div>
+          </div>
+  
+  
+  
+  
+      </div>
+  
+</section>
+  </div>
+
+  </div>
+
+</article>
+
+  </div>
+
+<div id="block-footernew" data-block-plugin-id="block_content:bc0bb71b-ee8c-4680-8dda-d9e01e2deb4a" class="component-space-lg">
+  
+    
+  
+
+
+<div class="basic-block px-0 py-0">
+                
+      <div>
+              <div>
+<div class="component-space-md">
+  
+            <div class="body-field"><style>
+<!--/*--><![CDATA[/* ><!--*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*--><!]]>*/
+</style><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+
+	html { overflow-x: hidden; }
+#footer {
+	
+}
+#footer-new {
+	text-align: left;
+padding: 50px;
+	background: #F3F5F9;
+margin: 0 0 -60px;
+}
+#footer-new a, #footer-new a:link, #footer-new a:visited, #footer-new a:active {
+	text-decoration: none; color: #121212; font-weight: 400; font-size: 16px;
+}
+#footer-new a:hover {
+	text-decoration: underline;
+}
+#footer-new .col-one {
+	display: inline-block;
+width: 17%;
+	vertical-align: top;
+	padding-right: 20px;
+}
+#footer-new .col-one img {
+	max-width: 204px;
+	min-height: auto;
+}
+#footer-new h5 {
+	color: #05314D;
+font-weight: 500;
+font-size: 18px;
+border-bottom: 1px solid #05314D;
+padding: 0 10px 10px 0px;
+width: fit-content;
+	margin-bottom: 5px;
+	font-family: 'Roboto Slab',serif;
+}
+#footer-new ul {
+	list-style-type: none;
+margin: 0px;
+padding: 10px 0;
+}
+#footer-new li {
+	padding: 5px 0;
+	font-size: 14px;
+	line-height: 18px;
+}
+#footer-new .col-two {
+	display: inline-block;
+width: 13%;
+	vertical-align: top;
+	padding-right: 20px;
+}
+#footer-new .col-two ul {
+	
+}
+#footer-new .col-three {
+	display: inline-block;
+width: 16%;
+	vertical-align: top;
+
+	padding-right: 20px;
+}
+#footer-new .col-three ul {
+	
+}
+#footer-new .col-four {
+	display: inline-block;
+width: 50%;
+vertical-align: top;
+}
+#footer-new .col-four h5 {
+	width: auto;
+}
+#footer-new .col-four ul.three-col {
+	width: 33.3333%;
+display: inline-block;
+float: left;
+	padding-right: 20px;
+}
+#footer-new .col-four li.list-title {
+	color: #1C6FA3;
+font-family: 'roboto slab';
+font-weight: 700;
+	font-size: 15px;
+	line-height: 28px;
+}
+@media (max-width: 1260px) {
+#footer-new .col-two {
+    width: 16%;
+}
+#footer-new .col-three {
+    width: 19%;
+}
+#footer-new .col-four {
+    width: 44%;
+}
+#footer-new .col-four li.list-title {
+    line-height: 20px;
+}
+}
+@media (max-width: 1135px) {
+  .fm-footer__menu .fm-footer__menu-item {
+    display: inline !important;
+  }
+  .fm-footer__menu-social {
+    width: 65% !important;
+  }
+  .fm-footer__copyright {
+    width: 35% !important;
+  }
+	.fm-footer__menu-items {
+		min-width: 320px;
+	}
+}
+@media (max-width: 1080px) {
+#footer-new .col-two {
+    width: 18%;
+}
+#footer-new .col-three {
+    width: 22%;
+}
+#footer-new .col-four {
+    width: 40%;
+}
+}
+
+@media (max-width: 999px) {
+	#footer-new {
+    text-align: left;
+    padding: 40px 20px;
+    background: #F3F5F9;
+    margin: -60px 0;
+}
+	#footer-new .col-one img {
+	max-width: 176px;
+	min-height: auto;
+}
+
+#footer-new .col-one {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 30px;
+}
+#footer-new h5 {
+    color: #05314D;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-bottom: 1px solid #05314D;
+    padding: 0 0 10px 0px;
+    width: 100%;
+}
+#footer-new ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px 0 30px !important;
+}
+#footer-new li {
+    padding: 0 0 5px 0;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    margin-bottom: 5px;
+}
+#footer-new a, #footer-new a:link, #footer-new a:visited, #footer-new a:active {
+    text-decoration: none;
+    color: #121212;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+}
+#footer-new .col-two {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+}
+#footer-new .col-three {
+    display: block;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+}
+#footer-new .col-four {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+#footer-new .col-four ul.three-col {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    padding: 5px 0 15px;
+}
+#footer-new .col-four li.list-title {
+    color: #1C6FA3;
+    font-family: 'roboto slab';
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 28px !important;
+}
+}
+	@media (max-width: 768px) {
+	#footer-new {
+    text-align: left;
+    padding: 40px 20px;
+    background: #F3F5F9;
+    margin: 0 0 -60px 0;
+}
+	}
+@media (max-width: 390px) {
+  .fm-footer__menu-social svg {
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: 8px !important;
+  }
+  .fm-footer .fm-footer__menu-social__item-twitter svg {
+    width: 11px !important;
+    height: 18px !important;
+    margin-right: 4px;
+    margin-left: 4px !important;
+  }
+  .fm-footer .fm-footer__menu-social__item-twitter .svgicon-default {
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: 10px !important;
+  }
+.fm-footer__menu .fm-footer__menu-item {
+    padding: 0 10px;
+}
+}
+@media (max-width: 340px) {
+  .fm-footer__menu-social svg {
+    width: 18px !important;
+    height: 18px !important;
+    margin-left: 6px !important;
+  }
+			.fm-footer__menu-items {
+		min-width: 300px;
+	}
+
+}
+
+
+/*--><!]]>*/
+</style><div id="footer-new">
+  <div class="col-one"><a href="/home"><img src="https://yourhome.fanniemae.com/sites/g/files/koqyhd251/files/2022-12/fm-logo.png" alt="Fannie Mae logo" /></a></div>
+  <div class="col-two">
+    <h5>Our Company</h5>
+    <ul><li><a href="https://www.fanniemae.com/about-us">About Us</a></li>
+      <li><a href="https://www.fanniemae.com/about-us/contact-us">Contact Us</a></li>
+      <li><a href="https://www.fanniemae.com/careers">Careers</a></li>
+      <li><a href="https://www.fanniemae.com/about-us/investor-relations">Investor Relations</a></li>
+      <li><a href="https://www.fanniemae.com/newsroom">Newsroom</a></li>
+      <li><a href="https://www.fanniemae.com/research-and-insights">Research &amp; Insights</a></li>
+      <li><a href="https://www.fanniemae.com/about-us/esg">ESG</a></li>
+    </ul></div>
+  <div class="col-three">
+    <h5>Business Partners</h5>
+    <ul><li><a href="https://singlefamily.fanniemae.com/">Single-Family Business</a></li>
+      <li><a href="https://multifamily.fanniemae.com/">Multifamily Business</a></li>
+      <li><a href="https://capitalmarkets.fanniemae.com/">Capital Markets</a></li>
+	      <li><a href="https://www.fanniemae.com/suppliers">Suppliers</a></li>
+      <li><a href="https://developer.fanniemae.com/#/home">Developer Portal</a></li>
+    </ul></div>
+  <div class="col-four">
+    <h5>Homebuyers, Owners, &amp; Renters</h5>
+    <ul class="three-col"><li class="list-title">Educational Resources</li>
+      <li><a href="https://yourhome.fanniemae.com/rent/credit-basics">Credit Basics</a></li>
+      <li><a href="https://www.fanniemae.com/education">HomeView Homeownership Education Course</a></li>
+      <li><a href="https://homepath.fanniemae.com/">HomePath - Search for Homes</a></li>
+      <li><a href="https://yourhome.fanniemae.com/rent/make-rent-count">Make Your Rent Count</a></li>
+    </ul><ul class="three-col"><li class="list-title">Calculators &amp; Tools</li>
+      <li><a href="https://yourhome.fanniemae.com/calculators-tools">All Calculators and Tools</a></li>      <li><a href="https://yourhome.fanniemae.com/calculators-tools/glossary-key-terms">Glossary of Key Terms</a></li>
+      <li><a href="https://yourhome.fanniemae.com/calculators-tools/mortgage-affordability-calculator">Affordability Calculator</a></li>
+      <li><a href="https://yourhome.fanniemae.com/calculators-tools/down-payment-assistance-tool">Down Payment Assistance Search Tool</a></li>
+      <li><a href="https://www.fanniemae.com/mobileapp">Mobile App</a></li>
+    </ul><ul class="three-col"><li class="list-title">Let Us Help You</li>
+      <li><a href="https://yourhome.fanniemae.com/rent/talk-to-a-housing-counselor">Contact a Housing Counselor</a></li>
+      <li><a href="https://yourhome.fanniemae.com/get-relief/managing-financial-uncertainty">Manage Financial Uncertainty</a></li>
+      <li><a href="https://yourhome.fanniemae.com/get-relief/recovering-disaster">Recover from a Disaster</a></li>
+    </ul></div>
+</div></div>
+      
+</div>
+</div>
+          </div>
+  
+    </div>
+</div>
+
+  </div>
+
+    </div>
+    
+    
+  </main>
+
+      
+<footer class="fm-footer" role="contentinfo">
+  <div class="container fm-footer__inner">
+    <div class="fm-footer__menu-social">
+                        <nav role="navigation" aria-labelledby="block-socialmedia-menu" id="block-socialmedia" data-block-plugin-id="system_menu_block:social-media">
+            
+  <h2 class="block-title typog-custom visually-hidden" id="block-socialmedia-menu">Social media</h2>
+  
+
+        
+            <ul region="footer" class="d-flex align-items-center list-unstyled m-0">
+          <li
+                   class="fm-footer__menu-item"
+        >
+        <a  class="fm-footer__menu-item fm-footer__link-item" href="/stay-connected" title="Follow us">
+          <span class="sr-only">Follow us</span>
+          Follow us        </a>
+      </li>
+          <li
+                   class="fm-footer__menu-item"
+        >
+        <a  class="fm-footer__menu-item fm-footer__link-item" href="https://www.facebook.com/fanniemae" title="Facebook">
+          <span class="sr-only">Facebook</span>
+                      <div class="svgicon-default">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook" class="svg-inline--fa fa-facebook fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+            </div>
+                  </a>
+      </li>
+          <li
+                   class="fm-footer__menu-item fm-footer__menu-social__item-twitter"
+        >
+        <a  class="fm-footer__menu-item fm-footer__menu-social__item-twitter fm-footer__link-item" href="https://twitter.com/FannieMae" title="Twitter">
+          <span class="sr-only">Twitter</span>
+                      <div class="svgicon-default">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+            </div>
+                  </a>
+      </li>
+          <li
+                   class="fm-footer__menu-item"
+        >
+        <a  class="fm-footer__menu-item fm-footer__link-item" href="https://www.linkedin.com/company/fannie-mae-corporation_19722" title="LinkedIn">
+          <span class="sr-only">LinkedIn</span>
+                      <div class="svgicon-default">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+            </div>
+                  </a>
+      </li>
+          <li
+                   class="fm-footer__menu-item"
+        >
+        <a  class="fm-footer__menu-item fm-footer__link-item" href="https://instagram.com/officialfanniemae" title="Instagram">
+          <span class="sr-only">Instagram</span>
+                      <div class="svgicon-default">
+              <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+            </div>
+                  </a>
+      </li>
+        </ul>
+  
+
+
+  </nav>
+
+                  </div>
+    <div class="fm-footer__menu">
+              <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer" data-block-plugin-id="system_menu_block:footer">
+            
+  <h2 class="block-title typog-custom visually-hidden" id="block-footer-menu">Footer</h2>
+  
+
+        
+            <ul region="footer" class="fm-footer__menu-items list-unstyled mb-0">
+          <li class="fm-footer__menu-item">
+        <a href="/about-us/legal-disclosure" class="fm-footer__menu-item fm-footer__link-item" data-drupal-link-system-path="node/15141">Legal</a>
+      </li>
+          <li class="fm-footer__menu-item">
+        <a href="/about-us/corporate-governance/online-privacy-notice" class="fm-footer__menu-item fm-footer__link-item" data-drupal-link-system-path="node/15161">Privacy</a>
+      </li>
+                <li class="fm-footer__menu-item">
+        <a class="ot-sdk-show-settings fm-footer__menu-item fm-footer__link-item" href="javascript:void(0);"> Cookie Preferences </a>
+      </li>
+    </ul>
+  
+
+
+  </nav>
+
+          </div>
+            <div class="fm-footer__copyright">
+          <div id="block-particle-corp-copyrightblock" data-block-plugin-id="fm_copyright_block">
+  
+    
+      <div class="copyright__date"> © 2023 Fannie Mae</div>
+
+  </div>
+
+        </div>
+        </div>
+</footer>
+
+  
+</div>
+  </div>
+
+    
+    <script src="/sites/g/files/koqyhd191/files/js/js_Ye3VUfK0oYdP8YPIQ_VSYNQBrA7JAcCJ_mvcl_jai2U.js"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e39adbc7f3","applicationID":"324267877","transactionName":"Ml1QZUBXDEpVWxFbVwsXc1JGXw1XG3wXR0gEVG5fXVIHZXdXC0ZKClReVEBqLFZQXTNbXRJ7XV9GRA1VWF0XHwYTUVdG","queueTime":19,"applicationTime":513,"atts":"HhpTEwhNH0Q=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

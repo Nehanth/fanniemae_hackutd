@@ -1,47 +1,27 @@
+# app.py
 import streamlit as st
-import pandas as pd
-from chatgpt_integration import get_chatgpt_response
-from cosine_model import calculate_cosine_similarity
-from recommendations import generate_recommendations
+from pages import home, insights, graphs, pdf_export
 
-st.set_page_config(layout="wide")
+pages = {
+    "Home": home.display,
+    "Insights": insights.display,
+    "Graphs": graphs.display,
+    "PDF Export": pdf_export.display
+}
 
-st.title('Homebuyer Readiness Evaluation')
+st.set_page_config(page_title="Multi-Page App", layout="wide")
 
-# Option for user to select the dataset source
-dataset_option = st.selectbox(
-    'Select your dataset source',
-    ('Upload my dataset', 'Use HackUTD-2023-HomeBuyerInfo dataset')
-)
+col1, col2, col3, col4 = st.columns(4)
 
-if dataset_option == 'Upload my dataset':
-    uploaded_file = st.file_uploader("Upload your dataset", type=["csv", "xlsx"])
-    if uploaded_file is not None:
-        # Process the file uploaded
-        df = pd.read_csv(uploaded_file)
-        st.write(df.head())
-else:
-    # Load the predefined dataset
-    df = pd.read_csv('HackUTD-2023-HomeBuyerInfo.csv')  # replace with the actual path to your dataset
-    st.write(df)
+if col1.button("Home"):
+    st.session_state.page = "Home"
+if col2.button("Insights"):
+    st.session_state.page = "Insights"
+if col3.button("Graphs"):
+    st.session_state.page = "Graphs"
+if col4.button("PDF Export"):
+    st.session_state.page = "PDF Export"
 
-# Proceed with the rest of the app if a dataset is loaded
-if 'df' in locals():
-    # Calculate Cosine Similarity
-    similarity_matrix = calculate_cosine_similarity(df)
+page = st.session_state.page if st.session_state.page else "Home"
 
-    # Select User
-    user_index = st.selectbox('Select the index of the user for recommendations', df.index)
-
-    # Generate recommendations
-    if st.button('Generate Recommendations'):
-        recommendations = generate_recommendations(df, similarity_matrix, user_index)
-        st.write(recommendations)
-
-    # ChatGPT advice
-    question = st.text_input('Ask for advice or clarification:')
-    if question:
-        response = get_chatgpt_response(question)
-        st.write(response)
-
-# Run the Streamlit app with `streamlit run app.py`
+pages[page]()
